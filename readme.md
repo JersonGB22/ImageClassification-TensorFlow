@@ -26,7 +26,7 @@ If you're interested in exploring other Computer Vision tasks beyond Image Class
 
 - **Fine-Grained Image Classification with the [Oxford-IIIT Pet](https://www.robots.ox.ac.uk/%7Evgg/data/pets/) Dataset:** This dataset contains RGB images, with 3,680 images for training and 3,669 for testing, distributed across 37 different classes (breeds of dogs and cats). The **ConvNeXt V2** model available on Hugging Face is fine-tuned with this dataset, achieving an accuracy of **96.24%** on the test dataset.
 
-- **Fine-Grained Image Classification with the [CUB-200-2011](https://www.vision.caltech.edu/datasets/cub_200_2011/) Dataset:** This dataset contains 11,788 RGB images, with 5,994 images designated for training and 5,794 for testing, distributed across 200 different bird species. The **ConvNeXt V2** model available on Hugging Face is fine-tuned with this dataset, achieving an accuracy of **91.65%** on the test dataset.
+- **Fine-Grained Image Classification with the [CUB-200-2011](https://www.vision.caltech.edu/datasets/cub_200_2011/) Dataset:** This dataset contains 11,788 RGB images, with 5,994 images designated for training and 5,794 for testing, distributed across 200 different bird species. The **ConvNeXt V2** model available on Hugging Face is fine-tuned with this dataset, achieving an accuracy of **91.65%** on the test set. Additionally, another **ConvNeXt V2** model is fine-tuned using the same dataset and adding nearly 20,000 images (about 100 per class of CUB-200-2011) from the [eBird](https://ebird.org/explore) website to the CUB-200-2011 training dataset to enhance the results, reaching an accuracy of **93.04%** on the test dataset.
 
 ## **Some Results**
 
@@ -50,7 +50,7 @@ If you're interested in exploring other Computer Vision tasks beyond Image Class
 ---
 <div align="center">
   <h2><b>CUB-200-2011</b></h2>
-  <img src="images/images_models/ImageClassification_ConvNeXTV2_CUB-200-2011.png" style="width: 950px;">
+  <img src="images/images_models/ImageClassification_ConvNeXTV2_CUB-200-2011_eBird.png" style="width: 920px;">
 </div>
 
 ---
